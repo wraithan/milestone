@@ -1,0 +1,28 @@
+{
+  "name": "milestone",
+  "version": "0.0.1",
+  "description": "Server for milestone timestamps.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wraithan/milestone"
+  },
+  "keywords": [
+    "milestone"
+  ],
+  "author": "Wraithan",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/wraithan/milestone/issues"
+  },
+  "dependencies": {
+    "hyperspace": "~0.1.2",
+    "json-stream": "~0.2.0",
+    "through": "~2.3.4",
+    "json-parse-stream": "0.0.1",
+    "hyperstream": "~0.2.0"
+  }
+}
