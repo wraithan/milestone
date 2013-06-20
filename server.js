@@ -16,7 +16,7 @@ var server = http.createServer(function(req, res) {
           '.data': ms
         }))
       .pipe(res)
-      .pipe(fs.createReadStream(__dirname + '/milestones.json'))
+    fs.createReadStream(__dirname + '/milestones.json')
       .pipe(parse())
       .pipe(objectFilter())
       .pipe(stringify())
