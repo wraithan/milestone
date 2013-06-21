@@ -3,7 +3,7 @@ var http = require('http')
   , hyperstream = require('hyperstream')
   , parse = require('json-parse-stream')
   , objectFilter = require('./lib/object-filter')
-  , stringify = require('./lib/stringify')
+  , stringify = require('json-stringify-stream')
   , milestone = require('./lib/milestone')
 
 
